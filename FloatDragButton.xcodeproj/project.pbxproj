@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C5AC5BE1DAC96150031301E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AC5BD1DAC96150031301E /* main.m */; };
+		5C5AC5C11DAC96150031301E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AC5C01DAC96150031301E /* AppDelegate.m */; };
+		5C5AC5C41DAC96150031301E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AC5C31DAC96150031301E /* ViewController.m */; };
+		5C5AC5C71DAC96150031301E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5AC5C51DAC96150031301E /* Main.storyboard */; };
+		5C5AC5C91DAC96150031301E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5AC5C81DAC96150031301E /* Assets.xcassets */; };
+		5C5AC5CC1DAC96150031301E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5AC5CA1DAC96150031301E /* LaunchScreen.storyboard */; };
+		5C5AC5D71DAC96150031301E /* FloatDragButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AC5D61DAC96150031301E /* FloatDragButtonTests.m */; };
+		5C5AC5E21DAC96150031301E /* FloatDragButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AC5E11DAC96150031301E /* FloatDragButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C5AC5D31DAC96150031301E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C5AC5B11DAC96140031301E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5AC5B81DAC96140031301E;
+			remoteInfo = FloatDragButton;
+		};
+		5C5AC5DE1DAC96150031301E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C5AC5B11DAC96140031301E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5AC5B81DAC96140031301E;
+			remoteInfo = FloatDragButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C5AC5B91DAC96140031301E /* FloatDragButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatDragButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5AC5BD1DAC96150031301E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C5AC5BF1DAC96150031301E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C5AC5C01DAC96150031301E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C5AC5C21DAC96150031301E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C5AC5C31DAC96150031301E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C5AC5C61DAC96150031301E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C5AC5C81DAC96150031301E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C5AC5CB1DAC96150031301E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C5AC5CD1DAC96150031301E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5AC5D21DAC96150031301E /* FloatDragButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatDragButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5AC5D61DAC96150031301E /* FloatDragButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatDragButtonTests.m; sourceTree = "<group>"; };
+		5C5AC5D81DAC96150031301E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5AC5DD1DAC96150031301E /* FloatDragButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatDragButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5AC5E11DAC96150031301E /* FloatDragButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatDragButtonUITests.m; sourceTree = "<group>"; };
+		5C5AC5E31DAC96150031301E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C5AC5B61DAC96140031301E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5AC5CF1DAC96150031301E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5AC5DA1DAC96150031301E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C5AC5B01DAC96140031301E = {
+			isa = PBXGroup;
+			children = (
+				5C5AC5BB1DAC96140031301E /* FloatDragButton */,
+				5C5AC5D51DAC96150031301E /* FloatDragButtonTests */,
+				5C5AC5E01DAC96150031301E /* FloatDragButtonUITests */,
+				5C5AC5BA1DAC96140031301E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C5AC5BA1DAC96140031301E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C5AC5B91DAC96140031301E /* FloatDragButton.app */,
+				5C5AC5D21DAC96150031301E /* FloatDragButtonTests.xctest */,
+				5C5AC5DD1DAC96150031301E /* FloatDragButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C5AC5BB1DAC96140031301E /* FloatDragButton */ = {
+			isa = PBXGroup;
+			children = (
+				5C5AC5BF1DAC96150031301E /* AppDelegate.h */,
+				5C5AC5C01DAC96150031301E /* AppDelegate.m */,
+				5C5AC5C21DAC96150031301E /* ViewController.h */,
+				5C5AC5C31DAC96150031301E /* ViewController.m */,
+				5C5AC5C51DAC96150031301E /* Main.storyboard */,
+				5C5AC5C81DAC96150031301E /* Assets.xcassets */,
+				5C5AC5CA1DAC96150031301E /* LaunchScreen.storyboard */,
+				5C5AC5CD1DAC96150031301E /* Info.plist */,
+				5C5AC5BC1DAC96150031301E /* Supporting Files */,
+			);
+			path = FloatDragButton;
+			sourceTree = "<group>";
+		};
+		5C5AC5BC1DAC96150031301E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C5AC5BD1DAC96150031301E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C5AC5D51DAC96150031301E /* FloatDragButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C5AC5D61DAC96150031301E /* FloatDragButtonTests.m */,
+				5C5AC5D81DAC96150031301E /* Info.plist */,
+			);
+			path = FloatDragButtonTests;
+			sourceTree = "<group>";
+		};
+		5C5AC5E01DAC96150031301E /* FloatDragButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C5AC5E11DAC96150031301E /* FloatDragButtonUITests.m */,
+				5C5AC5E31DAC96150031301E /* Info.plist */,
+			);
+			path = FloatDragButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C5AC5B81DAC96140031301E /* FloatDragButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5AC5E61DAC96150031301E /* Build configuration list for PBXNativeTarget "FloatDragButton" */;
+			buildPhases = (
+				5C5AC5B51DAC96140031301E /* Sources */,
+				5C5AC5B61DAC96140031301E /* Frameworks */,
+				5C5AC5B71DAC96140031301E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatDragButton;
+			productName = FloatDragButton;
+			productReference = 5C5AC5B91DAC96140031301E /* FloatDragButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C5AC5D11DAC96150031301E /* FloatDragButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5AC5E91DAC96150031301E /* Build configuration list for PBXNativeTarget "FloatDragButtonTests" */;
+			buildPhases = (
+				5C5AC5CE1DAC96150031301E /* Sources */,
+				5C5AC5CF1DAC96150031301E /* Frameworks */,
+				5C5AC5D01DAC96150031301E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C5AC5D41DAC96150031301E /* PBXTargetDependency */,
+			);
+			name = FloatDragButtonTests;
+			productName = FloatDragButtonTests;
+			productReference = 5C5AC5D21DAC96150031301E /* FloatDragButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C5AC5DC1DAC96150031301E /* FloatDragButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5AC5EC1DAC96150031301E /* Build configuration list for PBXNativeTarget "FloatDragButtonUITests" */;
+			buildPhases = (
+				5C5AC5D91DAC96150031301E /* Sources */,
+				5C5AC5DA1DAC96150031301E /* Frameworks */,
+				5C5AC5DB1DAC96150031301E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C5AC5DF1DAC96150031301E /* PBXTargetDependency */,
+			);
+			name = FloatDragButtonUITests;
+			productName = FloatDragButtonUITests;
+			productReference = 5C5AC5DD1DAC96150031301E /* FloatDragButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C5AC5B11DAC96140031301E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = RockyFung;
+				TargetAttributes = {
+					5C5AC5B81DAC96140031301E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					5C5AC5D11DAC96150031301E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C5AC5B81DAC96140031301E;
+					};
+					5C5AC5DC1DAC96150031301E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C5AC5B81DAC96140031301E;
+					};
+				};
+			};
+			buildConfigurationList = 5C5AC5B41DAC96140031301E /* Build configuration list for PBXProject "FloatDragButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C5AC5B01DAC96140031301E;
+			productRefGroup = 5C5AC5BA1DAC96140031301E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C5AC5B81DAC96140031301E /* FloatDragButton */,
+				5C5AC5D11DAC96150031301E /* FloatDragButtonTests */,
+				5C5AC5DC1DAC96150031301E /* FloatDragButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C5AC5B71DAC96140031301E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5AC5CC1DAC96150031301E /* LaunchScreen.storyboard in Resources */,
+				5C5AC5C91DAC96150031301E /* Assets.xcassets in Resources */,
+				5C5AC5C71DAC96150031301E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5AC5D01DAC96150031301E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5AC5DB1DAC96150031301E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C5AC5B51DAC96140031301E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5AC5C41DAC96150031301E /* ViewController.m in Sources */,
+				5C5AC5C11DAC96150031301E /* AppDelegate.m in Sources */,
+				5C5AC5BE1DAC96150031301E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5AC5CE1DAC96150031301E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5AC5D71DAC96150031301E /* FloatDragButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5AC5D91DAC96150031301E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5AC5E21DAC96150031301E /* FloatDragButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C5AC5D41DAC96150031301E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C5AC5B81DAC96140031301E /* FloatDragButton */;
+			targetProxy = 5C5AC5D31DAC96150031301E /* PBXContainerItemProxy */;
+		};
+		5C5AC5DF1DAC96150031301E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C5AC5B81DAC96140031301E /* FloatDragButton */;
+			targetProxy = 5C5AC5DE1DAC96150031301E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C5AC5C51DAC96150031301E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C5AC5C61DAC96150031301E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C5AC5CA1DAC96150031301E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C5AC5CB1DAC96150031301E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C5AC5E41DAC96150031301E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C5AC5E51DAC96150031301E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C5AC5E71DAC96150031301E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FloatDragButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.FloatDragButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C5AC5E81DAC96150031301E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FloatDragButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.FloatDragButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C5AC5EA1DAC96150031301E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FloatDragButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.FloatDragButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatDragButton.app/FloatDragButton";
+			};
+			name = Debug;
+		};
+		5C5AC5EB1DAC96150031301E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FloatDragButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.FloatDragButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatDragButton.app/FloatDragButton";
+			};
+			name = Release;
+		};
+		5C5AC5ED1DAC96150031301E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FloatDragButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.FloatDragButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FloatDragButton;
+			};
+			name = Debug;
+		};
+		5C5AC5EE1DAC96150031301E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FloatDragButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.FloatDragButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FloatDragButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C5AC5B41DAC96140031301E /* Build configuration list for PBXProject "FloatDragButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5AC5E41DAC96150031301E /* Debug */,
+				5C5AC5E51DAC96150031301E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C5AC5E61DAC96150031301E /* Build configuration list for PBXNativeTarget "FloatDragButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5AC5E71DAC96150031301E /* Debug */,
+				5C5AC5E81DAC96150031301E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C5AC5E91DAC96150031301E /* Build configuration list for PBXNativeTarget "FloatDragButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5AC5EA1DAC96150031301E /* Debug */,
+				5C5AC5EB1DAC96150031301E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C5AC5EC1DAC96150031301E /* Build configuration list for PBXNativeTarget "FloatDragButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5AC5ED1DAC96150031301E /* Debug */,
+				5C5AC5EE1DAC96150031301E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C5AC5B11DAC96140031301E /* Project object */;
+}
