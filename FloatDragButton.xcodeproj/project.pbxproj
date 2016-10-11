@@ -15,6 +15,7 @@
 		5C5AC5CC1DAC96150031301E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5AC5CA1DAC96150031301E /* LaunchScreen.storyboard */; };
 		5C5AC5D71DAC96150031301E /* FloatDragButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AC5D61DAC96150031301E /* FloatDragButtonTests.m */; };
 		5C5AC5E21DAC96150031301E /* FloatDragButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AC5E11DAC96150031301E /* FloatDragButtonUITests.m */; };
+		5C5AC5F21DAC96810031301E /* UIButton+FloatDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AC5F11DAC96810031301E /* UIButton+FloatDrag.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5C5AC5DD1DAC96150031301E /* FloatDragButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatDragButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5AC5E11DAC96150031301E /* FloatDragButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatDragButtonUITests.m; sourceTree = "<group>"; };
 		5C5AC5E31DAC96150031301E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5AC5F01DAC96810031301E /* UIButton+FloatDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FloatDrag.h"; sourceTree = "<group>"; };
+		5C5AC5F11DAC96810031301E /* UIButton+FloatDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FloatDrag.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5C5AC5BB1DAC96140031301E /* FloatDragButton */ = {
 			isa = PBXGroup;
 			children = (
+				5C5AC5EF1DAC96420031301E /* FloatDragButton */,
 				5C5AC5BF1DAC96150031301E /* AppDelegate.h */,
 				5C5AC5C01DAC96150031301E /* AppDelegate.m */,
 				5C5AC5C21DAC96150031301E /* ViewController.h */,
@@ -138,6 +142,15 @@
 				5C5AC5E31DAC96150031301E /* Info.plist */,
 			);
 			path = FloatDragButtonUITests;
+			sourceTree = "<group>";
+		};
+		5C5AC5EF1DAC96420031301E /* FloatDragButton */ = {
+			isa = PBXGroup;
+			children = (
+				5C5AC5F01DAC96810031301E /* UIButton+FloatDrag.h */,
+				5C5AC5F11DAC96810031301E /* UIButton+FloatDrag.m */,
+			);
+			path = FloatDragButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					5C5AC5B81DAC96140031301E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EF3UZLJ4ZY;
 						ProvisioningStyle = Automatic;
 					};
 					5C5AC5D11DAC96150031301E = {
@@ -273,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5AC5F21DAC96810031301E /* UIButton+FloatDrag.m in Sources */,
 				5C5AC5C41DAC96150031301E /* ViewController.m in Sources */,
 				5C5AC5C11DAC96150031301E /* AppDelegate.m in Sources */,
 				5C5AC5BE1DAC96150031301E /* main.m in Sources */,
@@ -424,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EF3UZLJ4ZY;
 				INFOPLIST_FILE = FloatDragButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.FloatDragButton;
@@ -435,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EF3UZLJ4ZY;
 				INFOPLIST_FILE = FloatDragButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.FloatDragButton;
